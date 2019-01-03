@@ -27,6 +27,10 @@ grid = [['.', '.', '.', '.', '.', '.'],
     #for x in range(len(alist)):
          #print(alist[x][5],end='')
 
-
+def image(alist):
+    for x in range(len(alist[0])):
+        for y in range(len(alist)):
+            print(alist[y][x],end='')
+        print()
 
 image(grid)
